@@ -1,0 +1,309 @@
+.section-heading .sub-heading {
+  display: inline-block;
+  font-size: 12px;
+  color: #263a4f;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+.section-heading.bd .sub-heading:before {
+  background-color: transparent;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  left: -15px;
+  top: -10px;
+  border: 3px solid #bfca02;
+  opacity: 0.5;
+  z-index: -1;
+}
+.section-heading .heading {
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -1px;
+  display: block;
+  color: #263a4f;
+}
+.section-heading .desc {
+  margin-bottom: 0;
+}
+.sponsor-carousel.nav-center .owl-nav div {
+  background-color: transparent;
+  border: none;
+  color: #555;
+  font-size: 16px;
+}
+.wt-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wt-list .list-item {
+  position: relative;
+  padding-left: 75px;
+}
+.wt-list .list-item .list-icon {
+  border-style: solid;
+  width: 60px;
+  height: 60px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.2s ease-in-out;
+}
+.wt-list .list-item .list-icon i,
+.wt-list .list-item .list-icon span {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.wt-list .list-item h4 {
+  margin-bottom: 0;
+}
+.wt-list .list-item p {
+  margin: 0;
+  font-weight: normal;
+}
+.dl-video-box-wrap {
+  position: relative;
+}
+.dl-video-box-wrap img {
+  width: 100%;
+}
+.dl-video-box-wrap .dl-video-box-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.dl-video-box-wrap .dl-video-box-overlay .overlay {
+  background-color: #000;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  z-index: -1;
+}
+.owl-carousel .owl-dots,
+.owl-carousel .owl-dots {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+}
+.dots-style-1 .owl-dots .owl-dot {
+  background-color: #ddd;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  transition: all 0.5s ease-in-out;
+}
+.dots-style-1 .owl-dots .owl-dot.active {
+  background-color: #bfca02;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.dots-style-2 .owl-dots .owl-dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 3px;
+  position: relative;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+}
+.dots-style-2 .owl-dots .owl-dot span {
+  background-color: #555;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.dots-style-2 .owl-dots .owl-dot.active {
+  border: 1px solid #bfca02;
+  transition: all 0.3s linear;
+}
+.dots-style-2 .owl-dots .owl-dot.active span {
+  background-color: #bfca02;
+  transition: all 0.3s linear;
+}
+.owl-carousel .owl-nav {
+}
+.owl-carousel .owl-nav div {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 15px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3px 15px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #1b1b1f;
+  position: absolute;
+  left: -40px;
+  top: calc(50% - 20px);
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.owl-carousel .owl-nav div:hover {
+  color: #bfca02;
+}
+.owl-carousel .owl-nav div.owl-next {
+  left: auto;
+  right: -40px;
+}
+.owl-carousel:hover .owl-nav div {
+  opacity: 1;
+  left: -25px;
+}
+.owl-carousel:hover .owl-nav div.owl-next {
+  left: auto;
+  right: -25px;
+}
+.dl-photo-carousel {
+  position: relative;
+  overflow: hidden;
+}
+.dl-photo-carousel .swiper-slide {
+  width: auto;
+  height: 600px;
+}
+.dl-photo-carousel .swiper-slide img {
+  height: 600px;
+  width: auto;
+  cursor: e-resize;
+}
+.dl-navigation .button-next,
+.dl-navigation .button-prev {
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  color: #263a4f;
+  background-color: #fff;
+  line-height: 58px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.dl-navigation .button-next.swiper-button-disabled,
+.dl-navigation .button-prev.swiper-button-disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+.dl-navigation .button-next {
+  left: auto;
+  right: -30px;
+}
+.dl-navigation .button-next:hover,
+.dl-navigation .button-prev:hover {
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+}
+.dl-navigation:hover .button-next,
+.dl-navigation:hover .button-prev {
+  visibility: visible;
+  opacity: 1;
+}
+.dl-navigation:hover .button-prev {
+  left: 10px;
+}
+.dl-navigation:hover .button-next {
+  left: auto;
+  right: 10px;
+}
+.dl-bullets .swiper-pagination-bullets {
+}
+.dl-bullets .swiper-pagination-bullets span {
+  background-color: #263a4f;
+  opacity: 0.5;
+  transition: all 0.3s linear;
+}
+.dl-bullets .swiper-pagination-bullets span.swiper-pagination-bullet-active {
+  background-color: #fff;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.dl-faq-con .dl-single-faq {
+  position: relative;
+  overflow: hidden;
+}
+.dl-faq-con .dl-single-faq .dl-faq-title {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.dl-faq-con .dl-single-faq .dl-faq-header {
+  background-color: #f5f5f5;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.dl-business-hours .business-hrs-inner {
+  -webkit-box-shadow: 0 0.2rem 2.8rem rgba(36, 36, 36, 0.1);
+  -moz-box-shadow: 0 0.2rem 2.8rem rgba(36, 36, 36, 0.1);
+  box-shadow: 0 0.2rem 2.8rem rgba(36, 36, 36, 0.1);
+  padding: 70px 65px;
+  margin-top: -15px;
+}
+.dl-business-hours .dl-single-hrs {
+  margin-top: 15px;
+}
+.dl-business-hours .dl-single-hrs span.time {
+  float: right;
+  font-weight: 600;
+  color: #263a4f;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+}
+.dl-business-hours .dl-single-hrs span.day {
+  color: #3b3b3b;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+}
+.dl-business-hours .dl-single-hrs.closed-day span.time {
+  color: #fa2d2d;
+}
+.dl-business-hours .dl-single-hrs.closed-day span.day {
+  color: #fa2d2d;
+}
